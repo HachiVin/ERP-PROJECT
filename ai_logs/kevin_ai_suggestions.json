@@ -1,0 +1,14 @@
+{
+  "Sales_Data Sales": {
+    "text": "Data modul Sales (5 SO):\n\n| Status | Count | Total Amount (IDR) |\n|--------|-------|-------------------|\n| draft  | 2     | 11 880,0 |\n| cancel | 3     | 29 400,0 |\n\n- **Total pendapatan**: 41 280,0 (draft + cancel).  \n- **Customer tertinggi**: PT Nusantara Jaya (2 SO, 26 500,0).  \n- **Salesperson terbaik**: Mr Royan (3 SO, 19 400,0).  \n- **Jumlah SO**: 5, dengan 40 % draft dan 60 % cancel.  \n- **Rata‑rata SO**: 8 256,0 per order.  \n\nRekomendasi: Fokus proses konversi SO cancel, optimalkan hubungan dengan PT Nusantara Jaya dan Mr Royan.",
+    "time": "2025-09-10 11:42:09"
+  },
+  "Sales_Tren Penjualan": {
+    "text": "**Analisis Ringkas Modul Sales**\n\n- **Total Order**: 5, beserta 37 180 USD (draft 115 780 USD, cancel 26 600 USD)  \n- **Status**: 2 draft (24 %), 3 cancel (60 %)  \n- **Top Customer**: PT Nusantara Jaya (26 600 USD, semua cancel)  \n- **Highest Order**: SO103 – 15 500 USD (cancel)  \n- **Salesperson**: Mr Royan & Mr Budi masuk ke cancel (80 %), Mr Arriva & Mr Joko draft (20 %)  \n- **Tanggal**: penurunan penjualan cancel pada 02–05/08, draft pada 01 & 04/08.  \n\n**Insight**: Tingkat cancel tinggi → evaluasi prosedur sales & validasi order. Fokus perbaikan pada pelanggan PT Nusantara Jaya & salesperson yang melaporkan cancel.",
+    "time": "2025-09-10 14:07:07"
+  },
+  "Sales_Performa Sales": {
+    "text": "Data penjualan (SO) pada periode 1‑5 Agustus 2025:\n\n- Jumlah SO = 5 (Draft = 2, Cancel = 3).  \n- Total nilai: Draft = 11 580 USD, Cancel = 26 600 USD, keseluruhan = 38 180 USD.  \n- Paling tinggi: SO103 = 15 500 USD (cancel – PT Nusantara Jaya).  \n- Pelanggan terbesar: PT Nusantara Jaya (26 600 USD, satu draft + satu cancel).  \n- Salesperson:  \n  - Mr Royan (2 cancel) 18 600 USD  \n  - Mr Joko (draft) 11 100 USD  \n  - Mr Arriva (draft) 480 USD  \n  - Mr Budi (cancel) 8 000 USD.  \n\nKesimpulan: Mayoritas transaksi berstatus cancel, pelanggan PT Nusantara Jaya menonjol sebagai kontributor terbesar seperti pada SO103.",
+    "time": "2025-09-10 14:13:33"
+  }
+}
