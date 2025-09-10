@@ -1,3 +1,6 @@
-streamlit>=1.22
-pandas
-matplotlib
+streamlit==1.37.1
+pandas==2.2.2
+matplotlib==3.9.2
+python-dotenv==1.0.1
+bcrypt==4.2.0
+openai==1.50.2
