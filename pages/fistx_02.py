@@ -79,6 +79,9 @@ st.session_state.selected_module = selected_module
 
 # --- Fungsi AI Suggestion ---
 def get_ai_suggestion(module_name, df_head):
+    if not API_KEY or API_KEY.strip() == "":
+        return "❌ API Key tidak ditemukan. Pastikan sudah mengisi `OPENROUTER_API_KEY` di `.env` atau Streamlit Secrets."
+
     try:
         client = OpenAI(
             base_url="https://openrouter.ai/api/v1",
@@ -92,7 +95,7 @@ def get_ai_suggestion(module_name, df_head):
                 {"role": "user", "content": prompt}
             ]
         )
-        return resp.choices[0].message.content
+        return resp.choices[0].message.content.strip()
     except Exception as e:
         return f"⚠️ Gagal memanggil AI: {e}"
 
