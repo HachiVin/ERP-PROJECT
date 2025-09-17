@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as st 
 import chart.fistx as fx  
 import os
 import json
@@ -9,8 +9,20 @@ from datetime import datetime
 
 # --- Load ENV ---
 load_dotenv()
-API_KEY = os.getenv("OPENROUTER_API_KEY")
-MODEL_ID = os.getenv("OPENROUTER_MODEL", "openai/gpt-oss-20b:free")
+
+# Ambil API key & model dari secrets dulu, fallback ke .env
+API_KEY = (
+    os.getenv("OPENROUTER_API_KEY") 
+    or st.secrets["openrouter"]["api_key"]
+)
+MODEL_ID = (
+    os.getenv("OPENROUTER_MODEL") 
+    or st.secrets["openrouter"].get("model", "openai/gpt-oss-20b:free")
+)
+
+if not API_KEY:
+    st.error("⚠️ API Key tidak ditemukan. Pastikan sudah mengisi [openrouter] di secrets atau OPENROUTER_API_KEY di .env")
+    st.stop()
 
 # --- Path untuk simpan AI logs ---
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -79,9 +91,6 @@ st.session_state.selected_module = selected_module
 
 # --- Fungsi AI Suggestion ---
 def get_ai_suggestion(module_name, df_head):
-    if not API_KEY or API_KEY.strip() == "":
-        return "❌ API Key tidak ditemukan. Pastikan sudah mengisi `OPENROUTER_API_KEY` di `.env` atau Streamlit Secrets."
-
     try:
         client = OpenAI(
             base_url="https://openrouter.ai/api/v1",
@@ -95,7 +104,7 @@ def get_ai_suggestion(module_name, df_head):
                 {"role": "user", "content": prompt}
             ]
         )
-        return resp.choices[0].message.content.strip()
+        return resp.choices[0].message.content
     except Exception as e:
         return f"⚠️ Gagal memanggil AI: {e}"
 
