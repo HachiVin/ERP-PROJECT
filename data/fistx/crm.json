@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "name": "Opportunity - PT Tbk Jayapura",
+    "stage_id": "Lost",
+    "expected_revenue": 12239.37,
+    "probability": 0,
+    "partner_id": {
+      "id": 301,
+      "name": "PT Tbk Jayapura"
+    },
+    "user_id": {
+      "id": 803,
+      "name": "Rafid Utama, S.E."
+    },
+    "create_date": "2025-08-09"
+  },
+  {
+    "id": 2,
+    "name": "Opportunity - PT Tbk Jayapura",
+    "stage_id": "Qualified",
+    "expected_revenue": 9259.58,
+    "probability": 30,
+    "partner_id": {
+      "id": 301,
+      "name": "PT Tbk Jayapura"
+    },
+    "user_id": {
+      "id": 806,
+      "name": "Ulva Padmasari"
+    },
+    "create_date": "2025-07-04"
+  },
+  {
+    "id": 3,
+    "name": "Opportunity - PT (Persero) Tbk Ternate",
+    "stage_id": "Won",
+    "expected_revenue": 7134.89,
+    "probability": 100,
+    "partner_id": {
+      "id": 300,
+      "name": "PT (Persero) Tbk Ternate"
+    },
+    "user_id": {
+      "id": 802,
+      "name": "Hj. Raina Tarihoran, M.Farm"
+    },
+    "create_date": "2025-06-18"
+  },
+  {
+    "id": 4,
+    "name": "Opportunity - PT Tbk Jayapura",
+    "stage_id": "New",
+    "expected_revenue": 2308.54,
+    "probability": 10,
+    "partner_id": {
+      "id": 301,
+      "name": "PT Tbk Jayapura"
+    },
+    "user_id": {
+      "id": 805,
+      "name": "Danuja Purnawati"
+    },
+    "create_date": "2025-06-11"
+  },
+  {
+    "id": 5,
+    "name": "Opportunity - PT (Persero) Tbk Tangerang",
+    "stage_id": "Lost",
+    "expected_revenue": 5658.16,
+    "probability": 0,
+    "partner_id": {
+      "id": 302,
+      "name": "PT (Persero) Tbk Tangerang"
+    },
+    "user_id": {
+      "id": 805,
+      "name": "Danuja Purnawati"
+    },
+    "create_date": "2025-06-04"
+  },
+  {
+    "id": 6,
+    "name": "Opportunity - PT (Persero) Tbk Sabang",
+    "stage_id": "Lost",
+    "expected_revenue": 2934.11,
+    "probability": 0,
+    "partner_id": {
+      "id": 305,
+      "name": "PT (Persero) Tbk Sabang"
+    },
+    "user_id": {
+      "id": 807,
+      "name": "Puti Eva Utami, S.E."
+    },
+    "create_date": "2025-07-17"
+  },
+  {
+    "id": 7,
+    "name": "Opportunity - PT (Persero) Tbk Ternate",
+    "stage_id": "Lost",
+    "expected_revenue": 17766.31,
+    "probability": 0,
+    "partner_id": {
+      "id": 300,
+      "name": "PT (Persero) Tbk Ternate"
+    },
+    "user_id": {
+      "id": 804,
+      "name": "Humaira Uyainah"
+    },
+    "create_date": "2025-07-15"
+  },
+  {
+    "id": 8,
+    "name": "Opportunity - PT (Persero) Tbk Jambi",
+    "stage_id": "New",
+    "expected_revenue": 1393.58,
+    "probability": 10,
+    "partner_id": {
+      "id": 304,
+      "name": "PT (Persero) Tbk Jambi"
+    },
+    "user_id": {
+      "id": 803,
+      "name": "Rafid Utama, S.E."
+    },
+    "create_date": "2025-06-28"
+  },
+  {
+    "id": 9,
+    "name": "Opportunity - PT (Persero) Tbk Tangerang",
+    "stage_id": "Qualified",
+    "expected_revenue": 17396.43,
+    "probability": 30,
+    "partner_id": {
+      "id": 302,
+      "name": "PT (Persero) Tbk Tangerang"
+    },
+    "user_id": {
+      "id": 801,
+      "name": "Cinta Tamba"
+    },
+    "create_date": "2025-07-17"
+  },
+  {
+    "id": 10,
+    "name": "Opportunity - PT (Persero) Tbk Tangerang",
+    "stage_id": "Proposition",
+    "expected_revenue": 3671.75,
+    "probability": 60,
+    "partner_id": {
+      "id": 302,
+      "name": "PT (Persero) Tbk Tangerang"
+    },
+    "user_id": {
+      "id": 807,
+      "name": "Puti Eva Utami, S.E."
+    },
+    "create_date": "2025-07-14"
+  },
+  {
+    "id": 11,
+    "name": "Opportunity - PT Tbk Jayapura",
+    "stage_id": "New",
+    "expected_revenue": 12378.05,
+    "probability": 10,
+    "partner_id": {
+      "id": 301,
+      "name": "PT Tbk Jayapura"
+    },
+    "user_id": {
+      "id": 804,
+      "name": "Humaira Uyainah"
+    },
+    "create_date": "2025-06-20"
+  },
+  {
+    "id": 12,
+    "name": "Opportunity - PT (Persero) Tbk Jambi",
+    "stage_id": "Qualified",
+    "expected_revenue": 9514.07,
+    "probability": 30,
+    "partner_id": {
+      "id": 304,
+      "name": "PT (Persero) Tbk Jambi"
+    },
+    "user_id": {
+      "id": 803,
+      "name": "Rafid Utama, S.E."
+    },
+    "create_date": "2025-07-03"
+  }
+]

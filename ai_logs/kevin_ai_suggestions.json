@@ -1,7 +1,7 @@
 {
   "Sales_Data Sales": {
-    "text": "Data modul Sales (5 SO):\n\n| Status | Count | Total Amount (IDR) |\n|--------|-------|-------------------|\n| draft  | 2     | 11 880,0 |\n| cancel | 3     | 29 400,0 |\n\n- **Total pendapatan**: 41 280,0 (draft + cancel).  \n- **Customer tertinggi**: PT Nusantara Jaya (2 SO, 26 500,0).  \n- **Salesperson terbaik**: Mr Royan (3 SO, 19 400,0).  \n- **Jumlah SO**: 5, dengan 40 % draft dan 60 % cancel.  \n- **Rata‑rata SO**: 8 256,0 per order.  \n\nRekomendasi: Fokus proses konversi SO cancel, optimalkan hubungan dengan PT Nusantara Jaya dan Mr Royan.",
-    "time": "2025-09-10 11:42:09"
+    "text": "**Ringkasan analisis Sales (SO 101‑105)**  \n\n- **Jumlah SO**: 5 transaksi (2 draft, 3 cancel).  \n- **Pendapatan**: total = 480 + 8 000 + 15 500 + 11 100 + 3 100 = 38 180 IDR.  \n- **Rata‑rata**: 7 636 IDR per SO, yang terbesar (SO103) ≈ 15.5 k.  \n- **Customer terkemuka**: *PT Nusantara Jaya* (2 SO, 26 100 IDR); *UD Sinar Abadi* dan *CV Digital Makmur* masing‑masing satu transaksi.  \n- **Salesperson berperforma**: *Mr Royan* menangani 2 SO (15 500 + 3 100 = 18 600 IDR) dan 1 cancel.  \n- **Tingkat cancel**: 60 % (3/5). Menunjukkan perlu evaluasi proses konversi penjualan.",
+    "time": "2025-09-19 13:15:12"
   },
   "Sales_Tren Penjualan": {
     "text": "**Analisis Ringkas Modul Sales**\n\n- **Total Order**: 5, beserta 37 180 USD (draft 115 780 USD, cancel 26 600 USD)  \n- **Status**: 2 draft (24 %), 3 cancel (60 %)  \n- **Top Customer**: PT Nusantara Jaya (26 600 USD, semua cancel)  \n- **Highest Order**: SO103 – 15 500 USD (cancel)  \n- **Salesperson**: Mr Royan & Mr Budi masuk ke cancel (80 %), Mr Arriva & Mr Joko draft (20 %)  \n- **Tanggal**: penurunan penjualan cancel pada 02–05/08, draft pada 01 & 04/08.  \n\n**Insight**: Tingkat cancel tinggi → evaluasi prosedur sales & validasi order. Fokus perbaikan pada pelanggan PT Nusantara Jaya & salesperson yang melaporkan cancel.",
@@ -10,5 +10,17 @@
   "Sales_Performa Sales": {
     "text": "Data penjualan (SO) pada periode 1‑5 Agustus 2025:\n\n- Jumlah SO = 5 (Draft = 2, Cancel = 3).  \n- Total nilai: Draft = 11 580 USD, Cancel = 26 600 USD, keseluruhan = 38 180 USD.  \n- Paling tinggi: SO103 = 15 500 USD (cancel – PT Nusantara Jaya).  \n- Pelanggan terbesar: PT Nusantara Jaya (26 600 USD, satu draft + satu cancel).  \n- Salesperson:  \n  - Mr Royan (2 cancel) 18 600 USD  \n  - Mr Joko (draft) 11 100 USD  \n  - Mr Arriva (draft) 480 USD  \n  - Mr Budi (cancel) 8 000 USD.  \n\nKesimpulan: Mayoritas transaksi berstatus cancel, pelanggan PT Nusantara Jaya menonjol sebagai kontributor terbesar seperti pada SO103.",
     "time": "2025-09-10 14:13:33"
+  },
+  "Sales_Distribusi Status Order": {
+    "text": "**Ringkasan Data Sales (5 SO)**  \n\n- **Total penjualan:** 38 180 USD  \n- **Draft:** 11 580 USD (2 SO)  \n- **Cancel:** 26 600 USD (3 SO)  \n\n**Penjualan per Pelanggan**  \n- CV Digital Makmur: 480 USD  \n- UD Sinar Abadi: 8 000 USD  \n- PT Nusantara Jaya: 26 600 USD (2 SO)  \n- PT Mitra Solusi: 3 100 USD  \n\n**Penjualan per Salesperson**  \n- Mr Arriva: 480 USD  \n- Mr Budi: 8 000 USD  \n- Mr Royan: 18 600 USD (2 SO)  \n- Mr Joko: 11 100 USD  \n\nTingkat pembatalan 60 % menunjukkan perlunya fokus pada follow‑up dan konfirmasi sebelum finalisasi. Fokuskan upaya di pelanggan dengan volume tinggi (PT Nusantara Jaya) dan metrik penjualan per salesperson untuk mengoptimalkan pendapatan.",
+    "time": "2025-09-19 13:15:23"
+  },
+  "Inventory_Data Inventory": {
+    "text": "**Analisis singkat Modul Inventory**\n\n| Reference | Total Qty  | Produk utama                                |\n|-----------|-----------|---------------------------------------------|\n| WH/OUT/00300 | 4        | MacBook Pro 14 (2), HP LaserJet Printer (1), Wireless Mouse (1) |\n| WH/OUT/00301 | 5        | Laptop Dell XPS 15 (2), MacBook Pro 14 (3) |\n\n- **Jumlah keseluruhan keluar**: 9 unit pada tanggal 30 Jun 2025.\n- **Produk paling banyak**: *MacBook Pro 14* – 5 unit (56% dari total).\n- **Pelanggan**: *PT (Persero) Tbk Sabang* (4 unit) > *Bandung* (5 unit)– sehingga pelanggan Bandung lebih tinggi.\n- **State**: Semua tercatat `assigned`, persediaan siap proses outbound.\n\n**Rekomendasi**  \n1. Monitor stok *MacBook Pro 14* dan *Laptop Dell XPS 15* karena volume tinggi.  \n2. Verifikasi komitmen pengiriman untuk produk VIP (MacBook) agar tidak terhambat.  \n3. Tambahkan filter di dashboard untuk menampilkan transaksi per reference dan per bulan.  \n\n> **Data tambahan**  \n> Tanggal, customer, dan state selalu konsisten, memudahkan pelacakan.\n\n*(119 kata)*",
+    "time": "2025-09-19 14:18:00"
+  },
+  "Finance_Data Finance": {
+    "text": "**Ringkasan Data Finance**  \n- Jumlah faktur: 5 (NY 2025‑07).  \n- Total untaxed: 28.160 USD, tax: 2.866 USD, subtotal: 31.526 USD.  \n- Rata‑rata per faktur: 6 305 USD.  \n- Status pembayaran: 1 (20 %) sudah *paid*, 4 (80 %) *not_paid* – untuk Harian harus tim collection menyimak jatuh tempo.  \n- Klien utama: PT (Persero) Tbk (Sabang, Bandung, Tangerang) – ambil 3 faktur (2 di Sabang).  \n- Rekomendasi:  \n  1. Lacak faktur 0450, 0452, 0454, 0453 secepatnya.  \n  2. Analisa tren tagihan per klien dan pertimbangkan diskon tahap awal untuk meningkatkan cash‑flow.",
+    "time": "2025-09-19 14:18:22"
   }
 }

@@ -1,0 +1,794 @@
+[
+  {
+    "id": 300,
+    "reference": "WH/OUT/00300",
+    "scheduled_date": "2025-06-30",
+    "partner_id": {
+      "id": 305,
+      "name": "PT (Persero) Tbk Sabang"
+    },
+    "move_line_ids": [
+      {
+        "product_id": {
+          "id": 505,
+          "name": "MacBook Pro 14"
+        },
+        "product_uom_qty": 2,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      },
+      {
+        "product_id": {
+          "id": 503,
+          "name": "HP LaserJet Printer"
+        },
+        "product_uom_qty": 1,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      },
+      {
+        "product_id": {
+          "id": 502,
+          "name": "Wireless Mouse"
+        },
+        "product_uom_qty": 1,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      }
+    ],
+    "picking_type_code": "outgoing",
+    "origin": "SO0200"
+  },
+  {
+    "id": 301,
+    "reference": "WH/OUT/00301",
+    "scheduled_date": "2025-06-30",
+    "partner_id": {
+      "id": 303,
+      "name": "PT (Persero) Tbk Bandung"
+    },
+    "move_line_ids": [
+      {
+        "product_id": {
+          "id": 501,
+          "name": "Laptop Dell XPS 15"
+        },
+        "product_uom_qty": 2,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      },
+      {
+        "product_id": {
+          "id": 505,
+          "name": "MacBook Pro 14"
+        },
+        "product_uom_qty": 3,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      }
+    ],
+    "picking_type_code": "outgoing",
+    "origin": "SO0201"
+  },
+  {
+    "id": 302,
+    "reference": "WH/OUT/00302",
+    "scheduled_date": "2025-07-01",
+    "partner_id": {
+      "id": 305,
+      "name": "PT (Persero) Tbk Sabang"
+    },
+    "move_line_ids": [
+      {
+        "product_id": {
+          "id": 504,
+          "name": "Office Chair Ergonomic"
+        },
+        "product_uom_qty": 4,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      },
+      {
+        "product_id": {
+          "id": 502,
+          "name": "Wireless Mouse"
+        },
+        "product_uom_qty": 3,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      }
+    ],
+    "picking_type_code": "outgoing",
+    "origin": "SO0202"
+  },
+  {
+    "id": 303,
+    "reference": "WH/OUT/00303",
+    "scheduled_date": "2025-07-03",
+    "partner_id": {
+      "id": 301,
+      "name": "PT Tbk Jayapura"
+    },
+    "move_line_ids": [
+      {
+        "product_id": {
+          "id": 505,
+          "name": "MacBook Pro 14"
+        },
+        "product_uom_qty": 5,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      },
+      {
+        "product_id": {
+          "id": 503,
+          "name": "HP LaserJet Printer"
+        },
+        "product_uom_qty": 5,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      },
+      {
+        "product_id": {
+          "id": 504,
+          "name": "Office Chair Ergonomic"
+        },
+        "product_uom_qty": 5,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      }
+    ],
+    "picking_type_code": "outgoing",
+    "origin": "SO0203"
+  },
+  {
+    "id": 304,
+    "reference": "WH/OUT/00304",
+    "scheduled_date": "2025-07-04",
+    "partner_id": {
+      "id": 302,
+      "name": "PT (Persero) Tbk Tangerang"
+    },
+    "move_line_ids": [
+      {
+        "product_id": {
+          "id": 502,
+          "name": "Wireless Mouse"
+        },
+        "product_uom_qty": 5,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      }
+    ],
+    "picking_type_code": "outgoing",
+    "origin": "SO0204"
+  },
+  {
+    "id": 305,
+    "reference": "WH/OUT/00305",
+    "scheduled_date": "2025-07-06",
+    "partner_id": {
+      "id": 300,
+      "name": "PT (Persero) Tbk Ternate"
+    },
+    "move_line_ids": [
+      {
+        "product_id": {
+          "id": 501,
+          "name": "Laptop Dell XPS 15"
+        },
+        "product_uom_qty": 2,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      }
+    ],
+    "picking_type_code": "outgoing",
+    "origin": "SO0205"
+  },
+  {
+    "id": 306,
+    "reference": "WH/OUT/00306",
+    "scheduled_date": "2025-07-06",
+    "partner_id": {
+      "id": 301,
+      "name": "PT Tbk Jayapura"
+    },
+    "move_line_ids": [
+      {
+        "product_id": {
+          "id": 504,
+          "name": "Office Chair Ergonomic"
+        },
+        "product_uom_qty": 5,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      },
+      {
+        "product_id": {
+          "id": 501,
+          "name": "Laptop Dell XPS 15"
+        },
+        "product_uom_qty": 4,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      },
+      {
+        "product_id": {
+          "id": 504,
+          "name": "Office Chair Ergonomic"
+        },
+        "product_uom_qty": 5,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      }
+    ],
+    "picking_type_code": "outgoing",
+    "origin": "SO0206"
+  },
+  {
+    "id": 307,
+    "reference": "WH/OUT/00307",
+    "scheduled_date": "2025-07-07",
+    "partner_id": {
+      "id": 304,
+      "name": "PT (Persero) Tbk Jambi"
+    },
+    "move_line_ids": [
+      {
+        "product_id": {
+          "id": 505,
+          "name": "MacBook Pro 14"
+        },
+        "product_uom_qty": 1,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      },
+      {
+        "product_id": {
+          "id": 501,
+          "name": "Laptop Dell XPS 15"
+        },
+        "product_uom_qty": 5,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      }
+    ],
+    "picking_type_code": "outgoing",
+    "origin": "SO0207"
+  },
+  {
+    "id": 308,
+    "reference": "WH/OUT/00308",
+    "scheduled_date": "2025-07-08",
+    "partner_id": {
+      "id": 305,
+      "name": "PT (Persero) Tbk Sabang"
+    },
+    "move_line_ids": [
+      {
+        "product_id": {
+          "id": 501,
+          "name": "Laptop Dell XPS 15"
+        },
+        "product_uom_qty": 3,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      },
+      {
+        "product_id": {
+          "id": 504,
+          "name": "Office Chair Ergonomic"
+        },
+        "product_uom_qty": 2,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      }
+    ],
+    "picking_type_code": "outgoing",
+    "origin": "SO0208"
+  },
+  {
+    "id": 309,
+    "reference": "WH/OUT/00309",
+    "scheduled_date": "2025-07-10",
+    "partner_id": {
+      "id": 300,
+      "name": "PT (Persero) Tbk Ternate"
+    },
+    "move_line_ids": [
+      {
+        "product_id": {
+          "id": 503,
+          "name": "HP LaserJet Printer"
+        },
+        "product_uom_qty": 5,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      },
+      {
+        "product_id": {
+          "id": 502,
+          "name": "Wireless Mouse"
+        },
+        "product_uom_qty": 5,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      },
+      {
+        "product_id": {
+          "id": 501,
+          "name": "Laptop Dell XPS 15"
+        },
+        "product_uom_qty": 3,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      }
+    ],
+    "picking_type_code": "outgoing",
+    "origin": "SO0209"
+  },
+  {
+    "id": 310,
+    "reference": "WH/OUT/00310",
+    "scheduled_date": "2025-07-09",
+    "partner_id": {
+      "id": 304,
+      "name": "PT (Persero) Tbk Jambi"
+    },
+    "move_line_ids": [
+      {
+        "product_id": {
+          "id": 502,
+          "name": "Wireless Mouse"
+        },
+        "product_uom_qty": 2,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      },
+      {
+        "product_id": {
+          "id": 503,
+          "name": "HP LaserJet Printer"
+        },
+        "product_uom_qty": 2,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      },
+      {
+        "product_id": {
+          "id": 505,
+          "name": "MacBook Pro 14"
+        },
+        "product_uom_qty": 5,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      }
+    ],
+    "picking_type_code": "outgoing",
+    "origin": "SO0210"
+  },
+  {
+    "id": 311,
+    "reference": "WH/OUT/00311",
+    "scheduled_date": "2025-07-11",
+    "partner_id": {
+      "id": 304,
+      "name": "PT (Persero) Tbk Jambi"
+    },
+    "move_line_ids": [
+      {
+        "product_id": {
+          "id": 504,
+          "name": "Office Chair Ergonomic"
+        },
+        "product_uom_qty": 1,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      },
+      {
+        "product_id": {
+          "id": 501,
+          "name": "Laptop Dell XPS 15"
+        },
+        "product_uom_qty": 3,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      }
+    ],
+    "picking_type_code": "outgoing",
+    "origin": "SO0211"
+  },
+  {
+    "id": 312,
+    "reference": "WH/OUT/00312",
+    "scheduled_date": "2025-07-11",
+    "partner_id": {
+      "id": 301,
+      "name": "PT Tbk Jayapura"
+    },
+    "move_line_ids": [
+      {
+        "product_id": {
+          "id": 502,
+          "name": "Wireless Mouse"
+        },
+        "product_uom_qty": 5,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      }
+    ],
+    "picking_type_code": "outgoing",
+    "origin": "SO0212"
+  },
+  {
+    "id": 313,
+    "reference": "WH/OUT/00313",
+    "scheduled_date": "2025-07-14",
+    "partner_id": {
+      "id": 300,
+      "name": "PT (Persero) Tbk Ternate"
+    },
+    "move_line_ids": [
+      {
+        "product_id": {
+          "id": 504,
+          "name": "Office Chair Ergonomic"
+        },
+        "product_uom_qty": 1,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      },
+      {
+        "product_id": {
+          "id": 505,
+          "name": "MacBook Pro 14"
+        },
+        "product_uom_qty": 2,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      },
+      {
+        "product_id": {
+          "id": 502,
+          "name": "Wireless Mouse"
+        },
+        "product_uom_qty": 4,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      }
+    ],
+    "picking_type_code": "outgoing",
+    "origin": "SO0213"
+  },
+  {
+    "id": 314,
+    "reference": "WH/OUT/00314",
+    "scheduled_date": "2025-07-15",
+    "partner_id": {
+      "id": 301,
+      "name": "PT Tbk Jayapura"
+    },
+    "move_line_ids": [
+      {
+        "product_id": {
+          "id": 505,
+          "name": "MacBook Pro 14"
+        },
+        "product_uom_qty": 5,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      },
+      {
+        "product_id": {
+          "id": 504,
+          "name": "Office Chair Ergonomic"
+        },
+        "product_uom_qty": 2,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      }
+    ],
+    "picking_type_code": "outgoing",
+    "origin": "SO0214"
+  },
+  {
+    "id": 315,
+    "reference": "WH/OUT/00315",
+    "scheduled_date": "2025-07-15",
+    "partner_id": {
+      "id": 305,
+      "name": "PT (Persero) Tbk Sabang"
+    },
+    "move_line_ids": [
+      {
+        "product_id": {
+          "id": 502,
+          "name": "Wireless Mouse"
+        },
+        "product_uom_qty": 3,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      },
+      {
+        "product_id": {
+          "id": 504,
+          "name": "Office Chair Ergonomic"
+        },
+        "product_uom_qty": 3,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      },
+      {
+        "product_id": {
+          "id": 504,
+          "name": "Office Chair Ergonomic"
+        },
+        "product_uom_qty": 5,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      }
+    ],
+    "picking_type_code": "outgoing",
+    "origin": "SO0215"
+  },
+  {
+    "id": 316,
+    "reference": "WH/OUT/00316",
+    "scheduled_date": "2025-07-16",
+    "partner_id": {
+      "id": 300,
+      "name": "PT (Persero) Tbk Ternate"
+    },
+    "move_line_ids": [
+      {
+        "product_id": {
+          "id": 502,
+          "name": "Wireless Mouse"
+        },
+        "product_uom_qty": 1,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      }
+    ],
+    "picking_type_code": "outgoing",
+    "origin": "SO0216"
+  },
+  {
+    "id": 317,
+    "reference": "WH/OUT/00317",
+    "scheduled_date": "2025-07-18",
+    "partner_id": {
+      "id": 300,
+      "name": "PT (Persero) Tbk Ternate"
+    },
+    "move_line_ids": [
+      {
+        "product_id": {
+          "id": 505,
+          "name": "MacBook Pro 14"
+        },
+        "product_uom_qty": 2,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      },
+      {
+        "product_id": {
+          "id": 505,
+          "name": "MacBook Pro 14"
+        },
+        "product_uom_qty": 2,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      },
+      {
+        "product_id": {
+          "id": 501,
+          "name": "Laptop Dell XPS 15"
+        },
+        "product_uom_qty": 1,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      }
+    ],
+    "picking_type_code": "outgoing",
+    "origin": "SO0217"
+  },
+  {
+    "id": 318,
+    "reference": "WH/OUT/00318",
+    "scheduled_date": "2025-07-17",
+    "partner_id": {
+      "id": 305,
+      "name": "PT (Persero) Tbk Sabang"
+    },
+    "move_line_ids": [
+      {
+        "product_id": {
+          "id": 502,
+          "name": "Wireless Mouse"
+        },
+        "product_uom_qty": 1,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      }
+    ],
+    "picking_type_code": "outgoing",
+    "origin": "SO0218"
+  },
+  {
+    "id": 319,
+    "reference": "WH/OUT/00319",
+    "scheduled_date": "2025-07-19",
+    "partner_id": {
+      "id": 302,
+      "name": "PT (Persero) Tbk Tangerang"
+    },
+    "move_line_ids": [
+      {
+        "product_id": {
+          "id": 505,
+          "name": "MacBook Pro 14"
+        },
+        "product_uom_qty": 2,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      }
+    ],
+    "picking_type_code": "outgoing",
+    "origin": "SO0219"
+  },
+  {
+    "id": 320,
+    "reference": "WH/OUT/00320",
+    "scheduled_date": "2025-07-21",
+    "partner_id": {
+      "id": 305,
+      "name": "PT (Persero) Tbk Sabang"
+    },
+    "move_line_ids": [
+      {
+        "product_id": {
+          "id": 502,
+          "name": "Wireless Mouse"
+        },
+        "product_uom_qty": 5,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      },
+      {
+        "product_id": {
+          "id": 502,
+          "name": "Wireless Mouse"
+        },
+        "product_uom_qty": 5,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      }
+    ],
+    "picking_type_code": "outgoing",
+    "origin": "SO0220"
+  },
+  {
+    "id": 321,
+    "reference": "WH/OUT/00321",
+    "scheduled_date": "2025-07-20",
+    "partner_id": {
+      "id": 303,
+      "name": "PT (Persero) Tbk Bandung"
+    },
+    "move_line_ids": [
+      {
+        "product_id": {
+          "id": 504,
+          "name": "Office Chair Ergonomic"
+        },
+        "product_uom_qty": 4,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      }
+    ],
+    "picking_type_code": "outgoing",
+    "origin": "SO0221"
+  },
+  {
+    "id": 322,
+    "reference": "WH/OUT/00322",
+    "scheduled_date": "2025-07-22",
+    "partner_id": {
+      "id": 300,
+      "name": "PT (Persero) Tbk Ternate"
+    },
+    "move_line_ids": [
+      {
+        "product_id": {
+          "id": 504,
+          "name": "Office Chair Ergonomic"
+        },
+        "product_uom_qty": 3,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      }
+    ],
+    "picking_type_code": "outgoing",
+    "origin": "SO0222"
+  },
+  {
+    "id": 323,
+    "reference": "WH/OUT/00323",
+    "scheduled_date": "2025-07-24",
+    "partner_id": {
+      "id": 303,
+      "name": "PT (Persero) Tbk Bandung"
+    },
+    "move_line_ids": [
+      {
+        "product_id": {
+          "id": 501,
+          "name": "Laptop Dell XPS 15"
+        },
+        "product_uom_qty": 1,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      },
+      {
+        "product_id": {
+          "id": 501,
+          "name": "Laptop Dell XPS 15"
+        },
+        "product_uom_qty": 4,
+        "location_id": "Stock",
+        "location_dest_id": "Customers",
+        "state": "assigned"
+      }
+    ],
+    "picking_type_code": "outgoing",
+    "origin": "SO0223"
+  }
+]

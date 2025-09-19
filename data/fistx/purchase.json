@@ -1,0 +1,278 @@
+[
+  {
+    "id": 400,
+    "name": "PO0400",
+    "date_order": "2025-07-14",
+    "partner_id": {
+      "id": 307,
+      "name": "CV Yulianti Makmur"
+    },
+    "order_line": [
+      {
+        "product_id": {
+          "id": 502,
+          "name": "Wireless Mouse"
+        },
+        "product_qty": 11,
+        "price_unit": 13.14,
+        "price_subtotal": 144.55
+      }
+    ],
+    "amount_untaxed": 144.55,
+    "amount_tax": 14.46,
+    "amount_total": 159.01,
+    "state": "purchase"
+  },
+  {
+    "id": 401,
+    "name": "PO0401",
+    "date_order": "2025-07-15",
+    "partner_id": {
+      "id": 307,
+      "name": "CV Yulianti Makmur"
+    },
+    "order_line": [
+      {
+        "product_id": {
+          "id": 504,
+          "name": "Office Chair Ergonomic"
+        },
+        "product_qty": 10,
+        "price_unit": 82.03,
+        "price_subtotal": 820.28
+      }
+    ],
+    "amount_untaxed": 820.28,
+    "amount_tax": 82.03,
+    "amount_total": 902.31,
+    "state": "purchase"
+  },
+  {
+    "id": 402,
+    "name": "PO0402",
+    "date_order": "2025-07-16",
+    "partner_id": {
+      "id": 306,
+      "name": "CV Napitupulu Makmur"
+    },
+    "order_line": [
+      {
+        "product_id": {
+          "id": 504,
+          "name": "Office Chair Ergonomic"
+        },
+        "product_qty": 8,
+        "price_unit": 73.82,
+        "price_subtotal": 590.57
+      }
+    ],
+    "amount_untaxed": 590.57,
+    "amount_tax": 59.06,
+    "amount_total": 649.63,
+    "state": "purchase"
+  },
+  {
+    "id": 403,
+    "name": "PO0403",
+    "date_order": "2025-07-17",
+    "partner_id": {
+      "id": 308,
+      "name": "CV Palastri Makmur"
+    },
+    "order_line": [
+      {
+        "product_id": {
+          "id": 501,
+          "name": "Laptop Dell XPS 15"
+        },
+        "product_qty": 12,
+        "price_unit": 974.84,
+        "price_subtotal": 11698.08
+      }
+    ],
+    "amount_untaxed": 11698.08,
+    "amount_tax": 1169.81,
+    "amount_total": 12867.89,
+    "state": "purchase"
+  },
+  {
+    "id": 404,
+    "name": "PO0404",
+    "date_order": "2025-07-18",
+    "partner_id": {
+      "id": 307,
+      "name": "CV Yulianti Makmur"
+    },
+    "order_line": [
+      {
+        "product_id": {
+          "id": 502,
+          "name": "Wireless Mouse"
+        },
+        "product_qty": 17,
+        "price_unit": 17.41,
+        "price_subtotal": 296.05
+      },
+      {
+        "product_id": {
+          "id": 502,
+          "name": "Wireless Mouse"
+        },
+        "product_qty": 17,
+        "price_unit": 12.01,
+        "price_subtotal": 204.22
+      }
+    ],
+    "amount_untaxed": 500.27,
+    "amount_tax": 50.03,
+    "amount_total": 550.3,
+    "state": "purchase"
+  },
+  {
+    "id": 405,
+    "name": "PO0405",
+    "date_order": "2025-07-19",
+    "partner_id": {
+      "id": 307,
+      "name": "CV Yulianti Makmur"
+    },
+    "order_line": [
+      {
+        "product_id": {
+          "id": 504,
+          "name": "Office Chair Ergonomic"
+        },
+        "product_qty": 14,
+        "price_unit": 87.23,
+        "price_subtotal": 1221.2
+      },
+      {
+        "product_id": {
+          "id": 505,
+          "name": "MacBook Pro 14"
+        },
+        "product_qty": 20,
+        "price_unit": 1422.17,
+        "price_subtotal": 28443.32
+      }
+    ],
+    "amount_untaxed": 29664.52,
+    "amount_tax": 2966.45,
+    "amount_total": 32630.97,
+    "state": "purchase"
+  },
+  {
+    "id": 406,
+    "name": "PO0406",
+    "date_order": "2025-07-20",
+    "partner_id": {
+      "id": 307,
+      "name": "CV Yulianti Makmur"
+    },
+    "order_line": [
+      {
+        "product_id": {
+          "id": 501,
+          "name": "Laptop Dell XPS 15"
+        },
+        "product_qty": 6,
+        "price_unit": 1236.59,
+        "price_subtotal": 7419.53
+      }
+    ],
+    "amount_untaxed": 7419.53,
+    "amount_tax": 741.95,
+    "amount_total": 8161.48,
+    "state": "purchase"
+  },
+  {
+    "id": 407,
+    "name": "PO0407",
+    "date_order": "2025-07-21",
+    "partner_id": {
+      "id": 306,
+      "name": "CV Napitupulu Makmur"
+    },
+    "order_line": [
+      {
+        "product_id": {
+          "id": 505,
+          "name": "MacBook Pro 14"
+        },
+        "product_qty": 20,
+        "price_unit": 1651.88,
+        "price_subtotal": 33037.63
+      }
+    ],
+    "amount_untaxed": 33037.63,
+    "amount_tax": 3303.76,
+    "amount_total": 36341.39,
+    "state": "purchase"
+  },
+  {
+    "id": 408,
+    "name": "PO0408",
+    "date_order": "2025-07-22",
+    "partner_id": {
+      "id": 308,
+      "name": "CV Palastri Makmur"
+    },
+    "order_line": [
+      {
+        "product_id": {
+          "id": 501,
+          "name": "Laptop Dell XPS 15"
+        },
+        "product_qty": 7,
+        "price_unit": 1283.1,
+        "price_subtotal": 8981.73
+      }
+    ],
+    "amount_untaxed": 8981.73,
+    "amount_tax": 898.17,
+    "amount_total": 9879.9,
+    "state": "purchase"
+  },
+  {
+    "id": 409,
+    "name": "PO0409",
+    "date_order": "2025-07-23",
+    "partner_id": {
+      "id": 306,
+      "name": "CV Napitupulu Makmur"
+    },
+    "order_line": [
+      {
+        "product_id": {
+          "id": 501,
+          "name": "Laptop Dell XPS 15"
+        },
+        "product_qty": 12,
+        "price_unit": 1081.7,
+        "price_subtotal": 12980.39
+      },
+      {
+        "product_id": {
+          "id": 505,
+          "name": "MacBook Pro 14"
+        },
+        "product_qty": 12,
+        "price_unit": 1702.09,
+        "price_subtotal": 20425.04
+      },
+      {
+        "product_id": {
+          "id": 501,
+          "name": "Laptop Dell XPS 15"
+        },
+        "product_qty": 7,
+        "price_unit": 1088.65,
+        "price_subtotal": 7620.56
+      }
+    ],
+    "amount_untaxed": 41025.99,
+    "amount_tax": 4102.6,
+    "amount_total": 45128.59,
+    "state": "purchase"
+  }
+]

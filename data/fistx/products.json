@@ -1,0 +1,32 @@
+[
+  {
+    "id": 501,
+    "name": "Laptop Dell XPS 15",
+    "uom": "Unit",
+    "price": 1500.0
+  },
+  {
+    "id": 502,
+    "name": "Wireless Mouse",
+    "uom": "Unit",
+    "price": 20.0
+  },
+  {
+    "id": 503,
+    "name": "HP LaserJet Printer",
+    "uom": "Unit",
+    "price": 400.0
+  },
+  {
+    "id": 504,
+    "name": "Office Chair Ergonomic",
+    "uom": "Unit",
+    "price": 120.0
+  },
+  {
+    "id": 505,
+    "name": "MacBook Pro 14",
+    "uom": "Unit",
+    "price": 2200.0
+  }
+]

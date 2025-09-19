@@ -1,0 +1,210 @@
+[
+  {
+    "id": 900,
+    "name": "Maintenance - June 2025",
+    "category": "Maintenance",
+    "amount": 814.3,
+    "currency_id": "USD",
+    "responsible_id": {
+      "id": 999,
+      "name": "GA Team"
+    },
+    "state": "to_approve",
+    "date": "2025-06-29"
+  },
+  {
+    "id": 901,
+    "name": "Office Supplies - June 2025",
+    "category": "Office Supplies",
+    "amount": 1234.66,
+    "currency_id": "USD",
+    "responsible_id": {
+      "id": 999,
+      "name": "GA Team"
+    },
+    "state": "draft",
+    "date": "2025-06-30"
+  },
+  {
+    "id": 902,
+    "name": "Maintenance - July 2025",
+    "category": "Maintenance",
+    "amount": 114.18,
+    "currency_id": "USD",
+    "responsible_id": {
+      "id": 999,
+      "name": "GA Team"
+    },
+    "state": "draft",
+    "date": "2025-07-01"
+  },
+  {
+    "id": 903,
+    "name": "Utilities - July 2025",
+    "category": "Utilities",
+    "amount": 1326.48,
+    "currency_id": "USD",
+    "responsible_id": {
+      "id": 999,
+      "name": "GA Team"
+    },
+    "state": "draft",
+    "date": "2025-07-02"
+  },
+  {
+    "id": 904,
+    "name": "Office Supplies - July 2025",
+    "category": "Office Supplies",
+    "amount": 1417.56,
+    "currency_id": "USD",
+    "responsible_id": {
+      "id": 999,
+      "name": "GA Team"
+    },
+    "state": "done",
+    "date": "2025-07-03"
+  },
+  {
+    "id": 905,
+    "name": "Utilities - July 2025",
+    "category": "Utilities",
+    "amount": 2724.48,
+    "currency_id": "USD",
+    "responsible_id": {
+      "id": 999,
+      "name": "GA Team"
+    },
+    "state": "done",
+    "date": "2025-07-04"
+  },
+  {
+    "id": 906,
+    "name": "Office Supplies - July 2025",
+    "category": "Office Supplies",
+    "amount": 3758.16,
+    "currency_id": "USD",
+    "responsible_id": {
+      "id": 999,
+      "name": "GA Team"
+    },
+    "state": "draft",
+    "date": "2025-07-05"
+  },
+  {
+    "id": 907,
+    "name": "Office Supplies - July 2025",
+    "category": "Office Supplies",
+    "amount": 730.7,
+    "currency_id": "USD",
+    "responsible_id": {
+      "id": 999,
+      "name": "GA Team"
+    },
+    "state": "to_approve",
+    "date": "2025-07-06"
+  },
+  {
+    "id": 908,
+    "name": "Operational Expense - July 2025",
+    "category": "Operational Expense",
+    "amount": 451.44,
+    "currency_id": "USD",
+    "responsible_id": {
+      "id": 999,
+      "name": "GA Team"
+    },
+    "state": "to_approve",
+    "date": "2025-07-07"
+  },
+  {
+    "id": 909,
+    "name": "Office Supplies - July 2025",
+    "category": "Office Supplies",
+    "amount": 2919.61,
+    "currency_id": "USD",
+    "responsible_id": {
+      "id": 999,
+      "name": "GA Team"
+    },
+    "state": "to_approve",
+    "date": "2025-07-08"
+  },
+  {
+    "id": 910,
+    "name": "Utilities - July 2025",
+    "category": "Utilities",
+    "amount": 2432.71,
+    "currency_id": "USD",
+    "responsible_id": {
+      "id": 999,
+      "name": "GA Team"
+    },
+    "state": "done",
+    "date": "2025-07-09"
+  },
+  {
+    "id": 911,
+    "name": "Operational Expense - July 2025",
+    "category": "Operational Expense",
+    "amount": 1553.08,
+    "currency_id": "USD",
+    "responsible_id": {
+      "id": 999,
+      "name": "GA Team"
+    },
+    "state": "done",
+    "date": "2025-07-10"
+  },
+  {
+    "id": 912,
+    "name": "Maintenance - July 2025",
+    "category": "Maintenance",
+    "amount": 1033.8,
+    "currency_id": "USD",
+    "responsible_id": {
+      "id": 999,
+      "name": "GA Team"
+    },
+    "state": "done",
+    "date": "2025-07-11"
+  },
+  {
+    "id": 913,
+    "name": "Utilities - July 2025",
+    "category": "Utilities",
+    "amount": 26.73,
+    "currency_id": "USD",
+    "responsible_id": {
+      "id": 999,
+      "name": "GA Team"
+    },
+    "state": "done",
+    "date": "2025-07-12"
+  },
+  {
+    "id": 914,
+    "name": "Maintenance - July 2025",
+    "category": "Maintenance",
+    "amount": 1469.6,
+    "currency_id": "USD",
+    "responsible_id": {
+      "id": 999,
+      "name": "GA Team"
+    },
+    "state": "draft",
+    "date": "2025-07-13"
+  },
+  {
+    "id": 915,
+    "name": "Office Supplies - July 2025",
+    "category": "Office Supplies",
+    "amount": 2500.16,
+    "currency_id": "USD",
+    "responsible_id": {
+      "id": 999,
+      "name": "GA Team"
+    },
+    "state": "done",
+    "date": "2025-07-14"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "id": 300,
+    "name": "PT (Persero) Tbk Ternate",
+    "type": "customer"
+  },
+  {
+    "id": 301,
+    "name": "PT Tbk Jayapura",
+    "type": "customer"
+  },
+  {
+    "id": 302,
+    "name": "PT (Persero) Tbk Tangerang",
+    "type": "customer"
+  },
+  {
+    "id": 303,
+    "name": "PT (Persero) Tbk Bandung",
+    "type": "customer"
+  },
+  {
+    "id": 304,
+    "name": "PT (Persero) Tbk Jambi",
+    "type": "customer"
+  },
+  {
+    "id": 305,
+    "name": "PT (Persero) Tbk Sabang",
+    "type": "customer"
+  },
+  {
+    "id": 306,
+    "name": "CV Napitupulu Makmur",
+    "type": "supplier"
+  },
+  {
+    "id": 307,
+    "name": "CV Yulianti Makmur",
+    "type": "supplier"
+  },
+  {
+    "id": 308,
+    "name": "CV Palastri Makmur",
+    "type": "supplier"
+  }
+]

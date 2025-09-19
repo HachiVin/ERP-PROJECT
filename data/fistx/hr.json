@@ -1,0 +1,74 @@
+[
+  {
+    "id": 800,
+    "name": "Gawati Hassanah",
+    "job_title": "GA Staff",
+    "department_id": "Sales",
+    "work_email": "gawati_hassanah@example.com",
+    "work_phone": "+62 (0026) 542 3511",
+    "status": "active"
+  },
+  {
+    "id": 801,
+    "name": "Cinta Tamba",
+    "job_title": "Sales Executive",
+    "department_id": "Finance",
+    "work_email": "cinta_tamba@example.com",
+    "work_phone": "+62 (940) 781-6184",
+    "status": "active"
+  },
+  {
+    "id": 802,
+    "name": "Hj. Raina Tarihoran, M.Farm",
+    "job_title": "Account Manager",
+    "department_id": "Warehouse",
+    "work_email": "hj._raina_tarihoran,_m.farm@example.com",
+    "work_phone": "+62-103-413-1647",
+    "status": "active"
+  },
+  {
+    "id": 803,
+    "name": "Rafid Utama, S.E.",
+    "job_title": "Account Manager",
+    "department_id": "Sales",
+    "work_email": "rafid_utama,_s.e.@example.com",
+    "work_phone": "+62 (534) 192-8327",
+    "status": "active"
+  },
+  {
+    "id": 804,
+    "name": "Humaira Uyainah",
+    "job_title": "GA Staff",
+    "department_id": "GA",
+    "work_email": "humaira_uyainah@example.com",
+    "work_phone": "0835030564",
+    "status": "active"
+  },
+  {
+    "id": 805,
+    "name": "Danuja Purnawati",
+    "job_title": "Sales Executive",
+    "department_id": "GA",
+    "work_email": "danuja_purnawati@example.com",
+    "work_phone": "+62 (376) 724 2388",
+    "status": "active"
+  },
+  {
+    "id": 806,
+    "name": "Ulva Padmasari",
+    "job_title": "Finance Officer",
+    "department_id": "Sales",
+    "work_email": "ulva_padmasari@example.com",
+    "work_phone": "(096) 532-8710",
+    "status": "active"
+  },
+  {
+    "id": 807,
+    "name": "Puti Eva Utami, S.E.",
+    "job_title": "Sales Executive",
+    "department_id": "Sales",
+    "work_email": "puti_eva_utami,_s.e.@example.com",
+    "work_phone": "(091) 669-7848",
+    "status": "active"
+  }
+]

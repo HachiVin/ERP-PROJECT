@@ -1,0 +1,257 @@
+[
+  {
+    "id": 600,
+    "name": "BNK/2025/0600",
+    "date": "2025-07-07",
+    "partner_id": {
+      "id": 303,
+      "name": "PT (Persero) Tbk Bandung"
+    },
+    "amount": 10560.0,
+    "currency_id": "USD",
+    "payment_type": "inbound",
+    "journal_id": "Bank",
+    "state": "posted",
+    "ref": "INV/2025/0451"
+  },
+  {
+    "id": 601,
+    "name": "BNK/2025/0601",
+    "date": "2025-07-16",
+    "partner_id": {
+      "id": 300,
+      "name": "PT (Persero) Tbk Ternate"
+    },
+    "amount": 3300.0,
+    "currency_id": "USD",
+    "payment_type": "inbound",
+    "journal_id": "Bank",
+    "state": "posted",
+    "ref": "INV/2025/0455"
+  },
+  {
+    "id": 602,
+    "name": "BNK/2025/0602",
+    "date": "2025-07-11",
+    "partner_id": {
+      "id": 301,
+      "name": "PT Tbk Jayapura"
+    },
+    "amount": 2779.75,
+    "currency_id": "USD",
+    "payment_type": "inbound",
+    "journal_id": "Bank",
+    "state": "posted",
+    "ref": "INV/2025/0456"
+  },
+  {
+    "id": 603,
+    "name": "BNK/2025/0603",
+    "date": "2025-07-11",
+    "partner_id": {
+      "id": 301,
+      "name": "PT Tbk Jayapura"
+    },
+    "amount": 5140.25,
+    "currency_id": "USD",
+    "payment_type": "inbound",
+    "journal_id": "Bank",
+    "state": "posted",
+    "ref": "INV/2025/0456"
+  },
+  {
+    "id": 604,
+    "name": "BNK/2025/0604",
+    "date": "2025-07-14",
+    "partner_id": {
+      "id": 304,
+      "name": "PT (Persero) Tbk Jambi"
+    },
+    "amount": 10670.0,
+    "currency_id": "USD",
+    "payment_type": "inbound",
+    "journal_id": "Bank",
+    "state": "posted",
+    "ref": "INV/2025/0457"
+  },
+  {
+    "id": 605,
+    "name": "BNK/2025/0605",
+    "date": "2025-07-14",
+    "partner_id": {
+      "id": 300,
+      "name": "PT (Persero) Tbk Ternate"
+    },
+    "amount": 7260.0,
+    "currency_id": "USD",
+    "payment_type": "inbound",
+    "journal_id": "Bank",
+    "state": "posted",
+    "ref": "INV/2025/0459"
+  },
+  {
+    "id": 606,
+    "name": "BNK/2025/0606",
+    "date": "2025-07-17",
+    "partner_id": {
+      "id": 304,
+      "name": "PT (Persero) Tbk Jambi"
+    },
+    "amount": 8590.24,
+    "currency_id": "USD",
+    "payment_type": "inbound",
+    "journal_id": "Bank",
+    "state": "posted",
+    "ref": "INV/2025/0460"
+  },
+  {
+    "id": 607,
+    "name": "BNK/2025/0607",
+    "date": "2025-07-17",
+    "partner_id": {
+      "id": 304,
+      "name": "PT (Persero) Tbk Jambi"
+    },
+    "amount": 4433.76,
+    "currency_id": "USD",
+    "payment_type": "inbound",
+    "journal_id": "Bank",
+    "state": "posted",
+    "ref": "INV/2025/0460"
+  },
+  {
+    "id": 608,
+    "name": "BNK/2025/0608",
+    "date": "2025-07-20",
+    "partner_id": {
+      "id": 300,
+      "name": "PT (Persero) Tbk Ternate"
+    },
+    "amount": 2898.5,
+    "currency_id": "USD",
+    "payment_type": "inbound",
+    "journal_id": "Bank",
+    "state": "posted",
+    "ref": "INV/2025/0463"
+  },
+  {
+    "id": 609,
+    "name": "BNK/2025/0609",
+    "date": "2025-07-20",
+    "partner_id": {
+      "id": 300,
+      "name": "PT (Persero) Tbk Ternate"
+    },
+    "amount": 2161.5,
+    "currency_id": "USD",
+    "payment_type": "inbound",
+    "journal_id": "Bank",
+    "state": "posted",
+    "ref": "INV/2025/0463"
+  },
+  {
+    "id": 610,
+    "name": "BNK/2025/0610",
+    "date": "2025-07-25",
+    "partner_id": {
+      "id": 305,
+      "name": "PT (Persero) Tbk Sabang"
+    },
+    "amount": 1122.0,
+    "currency_id": "USD",
+    "payment_type": "inbound",
+    "journal_id": "Bank",
+    "state": "posted",
+    "ref": "INV/2025/0465"
+  },
+  {
+    "id": 611,
+    "name": "BNK/2025/0611",
+    "date": "2025-07-26",
+    "partner_id": {
+      "id": 302,
+      "name": "PT (Persero) Tbk Tangerang"
+    },
+    "amount": 4840.0,
+    "currency_id": "USD",
+    "payment_type": "inbound",
+    "journal_id": "Bank",
+    "state": "posted",
+    "ref": "INV/2025/0469"
+  },
+  {
+    "id": 612,
+    "name": "BNK/2025/0612",
+    "date": "2025-07-28",
+    "partner_id": {
+      "id": 305,
+      "name": "PT (Persero) Tbk Sabang"
+    },
+    "amount": 151.7,
+    "currency_id": "USD",
+    "payment_type": "inbound",
+    "journal_id": "Bank",
+    "state": "posted",
+    "ref": "INV/2025/0470"
+  },
+  {
+    "id": 613,
+    "name": "BNK/2025/0613",
+    "date": "2025-07-28",
+    "partner_id": {
+      "id": 305,
+      "name": "PT (Persero) Tbk Sabang"
+    },
+    "amount": 68.3,
+    "currency_id": "USD",
+    "payment_type": "inbound",
+    "journal_id": "Bank",
+    "state": "posted",
+    "ref": "INV/2025/0470"
+  },
+  {
+    "id": 614,
+    "name": "BNK/2025/0614",
+    "date": "2025-07-30",
+    "partner_id": {
+      "id": 300,
+      "name": "PT (Persero) Tbk Ternate"
+    },
+    "amount": 396.0,
+    "currency_id": "USD",
+    "payment_type": "inbound",
+    "journal_id": "Bank",
+    "state": "posted",
+    "ref": "INV/2025/0472"
+  },
+  {
+    "id": 615,
+    "name": "BNK/2025/0615",
+    "date": "2025-07-28",
+    "partner_id": {
+      "id": 303,
+      "name": "PT (Persero) Tbk Bandung"
+    },
+    "amount": 5328.2,
+    "currency_id": "USD",
+    "payment_type": "inbound",
+    "journal_id": "Bank",
+    "state": "posted",
+    "ref": "INV/2025/0473"
+  },
+  {
+    "id": 616,
+    "name": "BNK/2025/0616",
+    "date": "2025-07-28",
+    "partner_id": {
+      "id": 303,
+      "name": "PT (Persero) Tbk Bandung"
+    },
+    "amount": 2921.8,
+    "currency_id": "USD",
+    "payment_type": "inbound",
+    "journal_id": "Bank",
+    "state": "posted",
+    "ref": "INV/2025/0473"
+  }
+]
