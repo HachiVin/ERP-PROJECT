@@ -6,4 +6,8 @@ python-dotenv
 bcrypt
 cffi
 passlib[bcrypt]
+<<<<<<< HEAD
 openai
+=======
+openai
+>>>>>>> 33080e0294314236b67b8b510364b630a7f53772

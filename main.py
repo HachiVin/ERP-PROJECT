@@ -8,7 +8,7 @@ st.set_page_config(page_title="EPR Dashboard", layout="wide")
 
 # --- Load ENV ---
 load_dotenv()
-users = json.loads(os.getenv("USERS", "{}"))
+users = st.secrets["users"]
 
 # --- Session state ---
 if "logged_in" not in st.session_state:
