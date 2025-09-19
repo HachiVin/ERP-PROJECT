@@ -85,7 +85,6 @@ if not st.session_state.logged_in:
             for u in users.keys():
                 st.write(f"- {u}")
 
-            # Hapus user (opsional)
             del_user = st.text_input("Masukkan username yang ingin dihapus:")
             if st.button("Hapus Akun"):
                 if delete_user(del_user):
@@ -115,6 +114,6 @@ else:
         with cols[i % 4]:
             if st.button(company, key=f"btn_{company}"):
                 if company == "FisTx":
-                    st.switch_page("pages/fistx_02.py") 
+                    st.switch_page("pages/dashboard_fistx.py") 
                 else:
                     st.warning(f"Halaman untuk {company} belum dibuat 🚧")
