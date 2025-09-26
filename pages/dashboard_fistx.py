@@ -3,6 +3,13 @@ import chart.fistx.crm as fx_crm
 import chart.fistx.sales as fx_sales
 import chart.fistx.finance as fx_finance
 import chart.fistx.inventory as fx_inventory 
+import chart.fistx.purchase as fx_purchase
+import chart.fistx.payment as fx_payment
+import chart.fistx.credit as fx_credit
+import chart.fistx.hr as fx_hr
+import chart.fistx.ga as fx_ga
+import chart.fistx.partners as fx_partners
+import chart.fistx.products as fx_products
 import os
 import json
 from pathlib import Path
@@ -83,7 +90,7 @@ if st.button("⬅️ Kembali ke Dashboard", key="back_btn"):
 
 st.markdown('<div class="header">FisTx</div>', unsafe_allow_html=True)
 
-modules = ["CRM", "Sales", "Finance", "Inventory", "Purchase", "Payment", "Credit", "HR", "GA"]
+modules = ["CRM", "Sales", "Finance", "Inventory", "Purchase", "Payment","Partners", "Products", "Credit", "HR", "GA"]
 st.subheader("Pilih Modul")
 selected_module = st.selectbox("Pilih modul:", modules, index=modules.index(st.session_state.selected_module))
 st.session_state.selected_module = selected_module
@@ -141,22 +148,35 @@ def show_ai_block(module_name, selected_visual, df):
         </div>
         """, unsafe_allow_html=True)
 
+# --- Modul CRM ---
 if selected_module == "CRM":
     df = fx_crm.load_crm_data()
     if not df.empty:
         with col1:
             st.subheader("Data CRM")
-            visual_options = ["Data CRM"]
+            visual_options = [
+                "Data CRM", 
+                "Distribusi Stage", 
+                "Revenue per Salesperson", 
+                "Tren Revenue"
+            ]
             selected_visual = st.selectbox("Pilih visualisasi:", visual_options)
             
             if selected_visual == "Data CRM":
                 fx_crm.crm_summary_table(df)
+            elif selected_visual == "Distribusi Stage":
+                fx_crm.crm_stage_distribution_chart(df)
+            elif selected_visual == "Revenue per Salesperson":
+                fx_crm.crm_revenue_by_salesperson_chart(df)
+            elif selected_visual == "Tren Revenue":
+                fx_crm.crm_trend_chart(df)
 
         with col2:
             st.subheader("AI Suggestion")
             show_ai_block("CRM", selected_visual, df)
     else:
         st.warning("⚠️ Data CRM kosong atau gagal dimuat.")
+
 
 # --- Modul Sales ---
 elif selected_module == "Sales":
@@ -215,12 +235,131 @@ elif selected_module == "Inventory":
         st.warning("⚠️ Data Inventory kosong atau gagal dimuat.")
 
 # --- Modul Purchase ---
+elif selected_module == "Purchase":
+    df = fx_purchase.load_purchase_data()
+    if not df.empty:
+        with col1:
+            st.subheader("Data Purchase")
+            visual_options = ["Data Purchase"]
+            selected_visual = st.selectbox("Pilih visualisasi:", visual_options)
+            
+            if selected_visual == "Data Purchase":
+                fx_purchase.purchase_summary_table(df)
+
+        with col2:
+            st.subheader("AI Suggestion")
+            show_ai_block("Purchase", selected_visual, df)
+    else:
+        st.warning("⚠️ Data Purchase kosong atau gagal dimuat.")
+
+# --- Modul Partners ---
+elif selected_module == "Partners":
+    df = fx_partners.load_partners_data()
+    if not df.empty:
+        with col1:
+            st.subheader("Data Partners")
+            visual_options = ["Data Partners"]
+            selected_visual = st.selectbox("Pilih visualisasi:", visual_options)
+
+            if selected_visual == "Data Partners":
+                fx_partners.partners_summary_table(df)
+
+        with col2:
+            st.subheader("AI Suggestion")
+            show_ai_block("Partners", selected_visual, df)
+    else:
+        st.warning("⚠️ Data Partners kosong atau gagal dimuat.")
+
+# --- Modul Products ---
+elif selected_module == "Products":
+    df = fx_products.load_products_data()
+    if not df.empty:
+        with col1:
+            st.subheader("Data Products")
+            visual_options = ["Data Products"]
+            selected_visual = st.selectbox("Pilih visualisasi:", visual_options)
+
+            if selected_visual == "Data Products":
+                fx_products.products_summary_table(df)
+
+        with col2:
+            st.subheader("AI Suggestion")
+            show_ai_block("Products", selected_visual, df)
+    else:
+        st.warning("⚠️ Data Products kosong atau gagal dimuat.")
 
 # --- Modul Payment ---
+elif selected_module == "Payment":
+    df = fx_payment.load_payment_data()
+    if not df.empty:
+        with col1:
+            st.subheader("Data Payment")
+            visual_options = ["Data Payment"]
+            selected_visual = st.selectbox("Pilih visualisasi:", visual_options)
+
+            if selected_visual == "Data Payment":
+                fx_payment.payment_summary_table(df)
+
+        with col2:
+            st.subheader("AI Suggestion")
+            show_ai_block("Payment", selected_visual, df)
+    else:
+        st.warning("⚠️ Data Payment kosong atau gagal dimuat.")
+
+# --- Modul Credit ---
+elif selected_module == "Credit":
+    df = fx_credit.load_credit_data()
+    if not df.empty:
+        with col1:
+            st.subheader("Data Credit")
+            visual_options = ["Data Credit"]
+            selected_visual = st.selectbox("Pilih visualisasi:", visual_options)
+
+            if selected_visual == "Data Credit":
+                fx_credit.credit_summary_table(df)
+
+        with col2:
+            st.subheader("AI Suggestion")
+            show_ai_block("Credit", selected_visual, df)
+    else:
+        st.warning("⚠️ Data Credit kosong atau gagal dimuat.")
 
 # --- Modul HR ---
+elif selected_module == "HR":
+    df = fx_hr.load_hr_data()
+    if not df.empty:
+        with col1:
+            st.subheader("Data HR")
+            visual_options = ["Data HR"]
+            selected_visual = st.selectbox("Pilih visualisasi:", visual_options)
+
+            if selected_visual == "Data HR":
+                fx_hr.hr_summary_table(df)
+
+        with col2:
+            st.subheader("AI Suggestion")
+            show_ai_block("HR", selected_visual, df)
+    else:
+        st.warning("⚠️ Data HR kosong atau gagal dimuat.")
 
 # --- Modul GA ---
+elif selected_module == "GA":
+    df = fx_ga.load_ga_data()
+    if not df.empty:
+        with col1:
+            st.subheader("Data GA")
+            visual_options = ["Data GA"]
+            selected_visual = st.selectbox("Pilih visualisasi:", visual_options)
+
+            if selected_visual == "Data GA":
+                fx_ga.ga_summary_table(df)
+
+        with col2:
+            st.subheader("AI Suggestion")
+            show_ai_block("GA", selected_visual, df)
+    else:
+        st.warning("⚠️ Data GA kosong atau gagal dimuat.")
+
 
 # --- Modul lain masih placeholder ---
 else:

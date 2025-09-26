@@ -22,5 +22,37 @@
   "Finance_Data Finance": {
     "text": "**Ringkasan Data Finance**  \n- Jumlah faktur: 5 (NY 2025‑07).  \n- Total untaxed: 28.160 USD, tax: 2.866 USD, subtotal: 31.526 USD.  \n- Rata‑rata per faktur: 6 305 USD.  \n- Status pembayaran: 1 (20 %) sudah *paid*, 4 (80 %) *not_paid* – untuk Harian harus tim collection menyimak jatuh tempo.  \n- Klien utama: PT (Persero) Tbk (Sabang, Bandung, Tangerang) – ambil 3 faktur (2 di Sabang).  \n- Rekomendasi:  \n  1. Lacak faktur 0450, 0452, 0454, 0453 secepatnya.  \n  2. Analisa tren tagihan per klien dan pertimbangkan diskon tahap awal untuk meningkatkan cash‑flow.",
     "time": "2025-09-19 14:18:22"
+  },
+  "CRM_Distribusi Stage": {
+    "text": "**CRM Snapshot (5 opportunities)**  \n\n- **Total pipelined revenue:** R$ 36,600 (karena probabilitas < 100 untuk 4 entry).  \n- **Stage distribution:** Lost 2, Qualified 1, Won 1, New 1.  \n- **Top customer:** PT Tbk Jayapura – R$ 23,707 (3 deals).  \n- **Top salesperson:** Rafid Utama, S.E. – R$ 12,239 (1 deal, probability 0).  \n- **Win‑rate potential:** Highest probability = 100 (%), Avg. probability = 28 %.  \n- **Revenue lead:** Opportunity #1 (R$ 12,239 RTK but probability 0).  \n\nInsight: Fokus pada opportunity #2 dan #4 untuk meningkatkan probabilitas, dan evaluasi alasan kehilangan #1‑#5 (keputusan 0 %).120 kata.",
+    "time": "2025-09-26 10:10:35"
+  },
+  "Purchase_Data Purchase": {
+    "text": "**Purchase module snapshot**\n\n- **Volume** – 58 items across 5 PO, most orders from CV Yulianti Makmur (3/5).  \n- **Financials** – Total spending ≈ Rp 15.13 M (Subtotal Rp 13.95 M, Tax Rp 1.39 M, Total Rp 15.13 M).  \n- **Average price** – ≈ Rp 276 per unit (Subtotal ÷ Quantity).  \n- **Item mix** – 2 × Wireless Mouse, 3 × Office Chair Ergonomic, 1 × Laptop Dell XPS 15.  \n- **Top spend** – Laptop (Rp 11.70 M), followed by Office Chair Ergonomic (Rp 0.59 M).  \n\n**Recommendation**  \n- Review the POS subtotal for PO 0404 (inconsistent 17 × 17.41).  \n- Negotiate volume discounts on high‑price items (Laptop).  \n- Standardize vendor selection: CV Yulianti Makmur handles majority, but diversify to mitigate risk.",
+    "time": "2025-09-26 10:11:11"
+  },
+  "Payment_Data Payment": {
+    "text": "**Ringkasan Modul Payment (7 Jul 2025 – 14 Jul 2025)**  \n- 5 pembayaran inbound, semua status *Bank posted*.  \n- Total nominal = **$28 560.00**.  \n- Rata‑rata = $5 712 / pembayaran.  \n- Pembayaran terbesar: **$10 670** (PT (Persero) Tbk Jambi – INV/2025/0457).  \n- Pembayaran terkecil: **$3 300** (PT (Persero) Tbk Ternate – INV/2025/0455).  \n- PT (Persero) Tbk Ternate dan PT Tbk Jayapura memegang 2 pembayaran masing‑masing, sementara PT (Persero) Tbk Bandung satu pembayaran.  \n\nData menunjukkan semua transaksi sudah diverifikasi via bank, tidak ada *open* atau *post‑credit* yang perlu ditindaklanjuti.",
+    "time": "2025-09-26 10:11:21"
+  },
+  "Partners_Data Partners": {
+    "text": "**Analisis singkat modul Partners**  \n\n- **Total entri:** 5\n- **Jenis entri:** Semua “customer”.  \n- **Pola nama:** 4 entri diawali “PT (Persero) Tbk”, 1 hanya “PT Tbk”.   \n- **Lokasi:** Kota tersimpan di akhir nama (Ternate, Jayapura, Tangerang, Bandung, Jambi).  \n- **Insight:** \n  - 80 % entri berasal dari tipe “PT (Persero) Tbk”, menunjukkan konsistensi branding.  \n  - Seluruh entri berada dalam kategori customer, tidak ada vendor, supplier, atau prospek.  \n\n**Saran singkat:**  \n1. Tambahkan kolom “Kota” terpisah untuk analitik geografis yang lebih mudah.  \n2. Buat filter default berdasarkan tipe (customer) agar statistik lebih fokus.  \n3. Periksa konsistensi penulisan “PT” untuk data bersih.",
+    "time": "2025-09-26 10:11:30"
+  },
+  "Products_Data Products": {
+    "text": "**Ringkasan modul Products (5 item)**  \n\n- Variasi produk meliputi laptop (Dell XPS 15, MacBook Pro 14), periferal (Wireless Mouse), perangkat printer, dan furniture kantor.  \n- Harga tertinggi: **MacBook Pro 14** (Rp 2.200,0). Harga terendah: **Wireless Mouse** (Rp 20,0).  \n- Rata‑rata harga per unit: (1 500 + 20 + 400 + 120 + 2 200) / 5 = **Rp 848,0** per item.  \n- Distribusi harga: 1 produk > Rp 1.000, 2 produk antara Rp 100‑Rp 600, 2 produk < Rp 200.  \n- Ukuran satuan konsisten “Unit”, memudahkan pembukuan dan persediaan.  \n\n**Kesimpulan**: Inventaris mencakup kisaran harga besar‑sedang‑rendah, menambah diversifikasi penawaran produk.",
+    "time": "2025-09-26 10:11:41"
+  },
+  "Credit_Data Credit": {
+    "text": "**Analisis Modul Credit**\n\n- **Jumlah record**: 5\n- **Total Kredit Limit**: 57 000 USD  \n- **Total Outstanding**: 15 878,05 USD (≈ 27,9 % limit terpakai)\n- **Pembagian Outstanding**  \n  - **Tertinggi**: ID 702 (9 626,82 USD) – masih ≤ 20 000 USD limit  \n  - **Terendah**: ID 700 (297,44 USD)  \n- **Status**: Semua aktif (active)\n- **Catatan**: Semua pelanggan berada di bawah batas kredit; tidak ada overdue atau status non‑active.  \n\nSecara keseluruhan, distribusi kredit terlihat seimbang, namun ID 702 menunjukkan penggunaan kredit paling tinggi, memerlukan monitoring berkelanjutan.",
+    "time": "2025-09-26 10:11:53"
+  },
+  "HR_Data HR": {
+    "text": "**Analisis singkat modul HR (5 karyawan, semua aktif)**  \n- **Distribusi departemen**: Sales (2), Finance (1), Warehouse (1), GA (1).  \n- **Pangkat**: GA Staff (2), Sales Executive (1), Account Manager (2).  \n- **Email**: Beberapa alamat mengandung spasi atau tanda kutip tidak konsisten (mis. “rafid_utama,_s.e.@example.com”); konsistensi domain harus diperbaiki.  \n- **Telepon**: Format bervariasi—numerik standar, “+62 (x) xxx‑xxxx”, “+62‑xxx‑xxx‑xxxx”, serta “0835030564”; seharusnya ditstandarisasi ke format internasional +62 Dengan konsistensi data, pencarian karyawan, analisis kinerja, dan pelaporan akan menjadi lebih akurat.",
+    "time": "2025-09-26 10:12:02"
+  },
+  "GA_Data GA": {
+    "text": "**GA Data Snapshot (June‑July 2025)**  \n\n- **Total spend:** $4 907.18 USD  \n- **By category:**  \n  - Office Supplies : $2 652.22 (≈54 %)  \n  - Utilities : $1 326.48 (≈27 %)  \n  - Maintenance : $928.48 (≈19 %)  \n- **State breakdown:**  \n  - Approve / Done = 2 records (40 %)  \n  - Draft = 3 records (60 %)  \n- **Responsible**: GA Team handles all entries; “GA Team to_approve” flagged the June Maintenance claim.  \n- **Key actions:** Confirm the pending drafts, specifically Office Supplies January‑June and Utilities‑July, to meet FY‑budget targets.",
+    "time": "2025-09-26 10:12:12"
   }
 }

@@ -1,6 +1,7 @@
 import pandas as pd
 import json
 import streamlit as st
+import matplotlib.pyplot as plt
 from pathlib import Path
 
 # --- Load CRM Data ---
@@ -41,3 +42,30 @@ def load_crm_data():
 # --- Tabel Ringkasan CRM ---
 def crm_summary_table(df):
     st.dataframe(df, use_container_width=True)
+
+# --- Pie Chart: Distribusi Stage ---
+def crm_stage_distribution_chart(df):
+    fig, ax = plt.subplots()
+    stage_count = df["Stage"].value_counts()
+    ax.pie(stage_count, labels=stage_count.index, autopct="%1.1f%%", startangle=90)
+    ax.set_title("Distribusi Stage CRM")
+    st.pyplot(fig)
+    plt.close(fig)
+
+# --- Bar Chart: Revenue per Salesperson ---
+def crm_revenue_by_salesperson_chart(df):
+    fig, ax = plt.subplots()
+    df.groupby("Salesperson")["Revenue"].sum().plot(kind="bar", ax=ax)
+    ax.set_title("Revenue per Salesperson")
+    ax.set_ylabel("Total Revenue")
+    st.pyplot(fig)
+    plt.close(fig)
+
+# --- Line Chart: Tren Revenue per Tanggal ---
+def crm_trend_chart(df):
+    fig, ax = plt.subplots()
+    df.groupby("Created")["Revenue"].sum().plot(kind="line", marker="o", ax=ax)
+    ax.set_title("Tren Revenue CRM per Tanggal")
+    ax.set_ylabel("Total Revenue")
+    st.pyplot(fig)
+    plt.close(fig)
