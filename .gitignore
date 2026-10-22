@@ -1,10 +1,20 @@
-# Ignore Python cache
+# Python
 __pycache__/
-*.pyc
-
-# Ignore virtual env
+*.py[cod]
 .venv/
+venv/
 env/
+.pytest_cache/
+.ruff_cache/
 
-# Ignore local environment config
+# Secrets and local configuration: never commit these
 .env
+.streamlit/secrets.toml
+
+# Runtime data written by the app (AI history per user)
+ai_logs/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
